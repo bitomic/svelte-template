@@ -345,19 +345,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:^1.28.1":
-  version: 1.31.2
-  resolution: "@playwright/test@npm:1.31.2"
+"@playwright/test@npm:^1.36.0":
+  version: 1.36.0
+  resolution: "@playwright/test@npm:1.36.0"
   dependencies:
     "@types/node": "*"
     fsevents: 2.3.2
-    playwright-core: 1.31.2
+    playwright-core: 1.36.0
   dependenciesMeta:
     fsevents:
       optional: true
   bin:
     playwright: cli.js
-  checksum: 5459ee0ce15b9a54337f4c26e2ee2d29c11e67e6207c167158eb180a4bea6659c988a2897f51dbebf591fc879f0d81f417e70936b9d8a001448c957939882588
+  checksum: 6748fd7777617fc14aaf472c85a2d29bdcca7c63e88d06bd8c4f37af3bc35ae7af9c317ed966bc005e37038a27193be486fb5361634a0e9a79f527b6cbdd2f52
   languageName: node
   linkType: hard
 
@@ -2460,12 +2460,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.31.2":
-  version: 1.31.2
-  resolution: "playwright-core@npm:1.31.2"
+"playwright-core@npm:1.36.0":
+  version: 1.36.0
+  resolution: "playwright-core@npm:1.36.0"
   bin:
-    playwright: cli.js
-  checksum: bf1257b7d80b9d027c99cbfa7ab9d47a2110ec804422b3e3d623bbb3c43e06df7bec4764ca1d852a6d62c76e35c8776efb19941f42ce738db9bc92e7f1b6281c
+    playwright-core: cli.js
+  checksum: d6b5fed5ae95238dc36a1be3e2cfd250221810e6a2d20592c29d7044a2d1f96e8e6cfff83d937605b6e26d7c3058231d16784e17979fbb11208880829e406e85
   languageName: node
   linkType: hard
 
@@ -3156,7 +3156,7 @@ __metadata:
   resolution: "svelte-template@workspace:."
   dependencies:
     "@bitomic/eslint-config": ^1.2.0
-    "@playwright/test": ^1.28.1
+    "@playwright/test": ^1.36.0
     "@sveltejs/adapter-auto": ^2.0.0
     "@sveltejs/kit": ^1.5.0
     "@typescript-eslint/eslint-plugin": ^5.45.0
